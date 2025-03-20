@@ -73,7 +73,7 @@ Steps:
 Objective: Implement registration, login, and anonymous access.
 Steps:
 * Setup Supabase Client:
-    * In src/supabase.js, initialize: import { createClient } from '@supabase/supabase-js';
+    * In src/supabase.js, initialize:import { createClient } from '@supabase/supabase-js';
     * const supabase = createClient(process.env.REACT_APP_SUPABASE_URL, process.env.REACT_APP_SUPABASE_ANON_KEY);
     * export default supabase;
     * 
